@@ -1,0 +1,77 @@
+h1 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h4 {
+    font-family: Londrina Solid;
+}
+
+p.player-text {
+    font-family: Londrina Solid;
+    font-size: 1.1em;
+    border-left: 5px solid lightgray;
+    padding-left: 8px;
+}
+
+.rolls {
+    border: 3px solid lightgray;
+    padding: 12px;
+    position: relative;
+}
+
+.rolls:before {
+    content: "Example rolls";
+    font-family: Londrina Solid;
+    background-color: lightgray;
+    color: white;
+    padding: 0 0 3px 3px;
+    margin: -12px -12px 0 0;
+    float: right;
+    
+}
+
+.rolls p {
+    text-indent: -30px;
+    margin: 0 0 0 30px;
+}
+
+.sign {
+    margin-top: 12px;
+    border: 3px solid lightgray;
+    padding: 12px;
+    font-family: Londrina Solid;
+    text-align: center;
+}
+
+u {
+    text-decoration-thickness: 2px;
+}
+
+.map {
+    border: 3px solid lightgray;
+    position: relative;
+}
+
+.map img {
+    width: 100%;
+}
+
+.map:after {
+    content: "map";
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 0 0 3px;
+    margin: -3px 0 0 0;
+    color: white;
+    background-color: lightgray;
+    font-family: Londrina Solid;
+    font-size: 14px;
+}
+
+.normal-text {
+    font-family: Noto Sans;
+    font-size: 14px;
+}

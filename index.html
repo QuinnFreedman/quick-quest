@@ -1,0 +1,276 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="core.css" />
+    <title>Quick Quest Core Rules</title>
+</head>
+<body>
+    <page>
+        <div class="section" style="width:90%;">
+            <div class="header-container">
+                <img src="images/d20dark.png" class="header-icon" />
+                <h1>Quick Quest</h1>
+                <div class="subheading">A one-page fantasy RPG expanding on the original by GIFFYGLYPH.COM.</div>
+            </div>
+            <div class="column-container">
+                <div class="rules-container column list-container">
+                    <h2>Make a Character</h2>
+                    <p><span class="bullet">1</span>Choose your <em>ancestry</em> (race) and <em>calling</em> (class / profession).</p>
+                    <p><span class="bullet">2</span>Rank your <em>attributes</em>: +3, +2, +1, 0, -1, -2.</p>
+                    <img src="images/img1.png" class="image-table"/>
+                    <p><span class="bullet">3</span>Rank your <em>archetypes</em>: +3, +2, +1, 0, -1, -2.</p>
+                    <img src="images/img2.png" class="image-table"/>
+                    <p><span class="bullet">4</span>Get 10 points of <em>resolve</em> (&pm; bonuses).</p>
+                    <p><span class="bullet">5</span>Choose a <em>name</em> and <em>appearance</em>.</p>
+                    <p><span class="bullet">6</span>Start with whatever <em>basic gear</em> makes sense for your ancestry and calling.</p>
+                </div>
+                <div class="rules-container column list-container">
+                    <h2>Play the Game</h2>
+                    <p><span class="bullet">A</span>Start a quest!</p>
+                    <p><span class="bullet">B</span>Want to make an action? Describe what you're trying to do and then—if the GM asks—make a <em>success check</em>. If you fail, the GM can <em>make a reaction</em> against you.</p>
+                    <div class="success-check-container">
+                        <div>
+                            <figure class="d20-icon">
+                                <img src="images/d20light.png" />
+                                <figcaption>1d20</figcaption>
+                            </figure>
+                            <div>
+                                &nbsp;+ <em>ATTRIBUTE</em> + <em>ARCHETYPE</em>
+                            </div>
+                        </div>
+                        <div style="margin-top: -16px; margin-bottom: 4px;">
+                            vs.
+                        </div>
+                        <div>
+                            <em>Difficulty</em>: 5/10/15/20/25/30
+                        </div>
+                    </div>
+                    <p><span class="bullet">C</span>If something attacks or acts against you, make a <em>success check</em> to defend.</p>
+                    <p><span class="bullet">D</span>If you suffer harm, you <em>lose 1 resolve</em> If you deal harm, your target loses 1 resolve.</p>
+                    <p><span class="bullet">E</span>You can <em>spend 1 resolve</em> to:</p>
+                    <ul>
+                        <li>Make a success check with <em>advantage</em> (roll twice and pick the highest number).</li>
+                        <li>Attempt something <em>extraordinary</em>.</li>
+                    </ul>
+                    <p><span class="bullet">F</span>You gain 1 resolve when you <em>rest</em> (8hrs).</p> 
+                    <p><span class="bullet">G</span>You can carry <em>3 significant items</em> at once.</p>
+                    <p><span class="bullet">H</span>When the quest is resolved, the game ends! If you survived, <em>gain a perk</em>. Choose either (a) +1 attribute point, (b) +1 archetype point, or (c) +1 maximum resolve.</p>
+                </div>
+            </div>
+        </div>
+        <div class="section" style="width:50%">
+            <div class="row-container">
+                <div class="rules-container row">
+                    <h2>Ancestries</h2>
+                    <div class="race-table">
+                        <div>
+                            <h3>Elf:</h3>
+                            <span>+1 WIS / -1 CON</span>
+                        </div>
+                        <div>
+                            <h3>Halfling:</h3>
+                            <span>+1 DEX / -1 STR</span>
+                        </div>
+                        <div>
+                            <h3>Human:</h3>
+                            <span>No bonus</span>
+                        </div>
+                        <div>
+                            <h3>Dwarf:</h3>
+                            <span>+1 CON / -1 CHA</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="rules-container row">
+                    <h2>Callings</h2>
+                    <h3>Wizard</h3> A spellcaster who gets their powers 
+                     from scholarly study or innate ability.
+                    <div class="floating-info">
+                        <em>Spellcasting:</em> Describe a magical effect you want to produce. The GM will tell you a difficulty and archetype; then make a <em>success check</em>.
+                        Attempting any but the simplest spells drains 1 resolve.
+                    </div>
+                     <ul>
+                        <li>You can cast spells (with WIS)</li>
+                        <li>-2 maximum resolve</li>
+                    </ul>
+                    <h3>Priest</h3> A spellcaster who gets their powers from a god, demon, or divinte patron.<ul>
+                        <li>You can cast spells (with CHA) but with <em>disadvantage</em> if not serving your patron.</li>
+                        <li>You can spend 1 resolve to heal an ally (+2 resolve or remove ailment).</li>
+                        <li>-2 maximum resolve</li>
+                    </ul>
+                    <h3>Thief</h3> A cunning and stealthy operator
+                    <ul>
+                        <li>You can pick locks and disarm traps</li>
+                        <li>+2 to any roll involving stealth or hiding</li>
+                    </ul>
+                    <h3>Warrior</h3> A trained soldier or experienced fighter
+                    <ul>
+                        <li>Choose one:<br>You can use heavy armor/shields (+2 CON) <i>or</i> You can use two-handed weapons (+2 STR)</li>
+                        <li>+2 maximum resolve</li>
+                    </ul>
+                    <h3>Ranger</h3> A savvy survivalist and woodsman
+                    <ul>
+                        <li>You can follow tracks</li>
+                        <li>You cannot get lost outdoors</li>
+                        <li>You can heal an ally 1 additional resolve when resting</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </page>
+    <page>
+        <div class="character-sheet-container">
+            <div class="character-sheet">
+                <div class="char-sheet-heading">
+                    <div>
+                    <div class="field-row">
+                        <div class="field">name</div>
+                        <div class="field" style="flex-grow: 1">perks</div>
+                    </div>
+                    <div class="field-row">
+                        <div class="field">ancestry</div>
+                        <div class="field">calling</div>
+                    </div>
+                    </div>
+                    <div class="field resolve">
+                        <h3>Resolve</h3>
+                        <div class="flex-horizontal" style="align-items:baseline;justify-content:center;flex-grow:1;">
+                            <div>Current</div>
+                            <div class="slash"></div>
+                            <div>Maximum</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-vertical" style="flex-grow:1;">
+                    <img src="images/character_sheet.png" class="attributes-table"  />
+                    <div class="items-container">
+                        <div class="item" style="height:100%;">
+                            <h3>Basic Gear</h3>
+                        </div>
+                        <div class="item">
+                            <h3>Item #1</h3>
+                        </div>
+                        <div class="item">
+                            <h3>Item #2</h3>
+                        </div>
+                        <div class="item">
+                            <h3>Item #3</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="character-sheet">
+                <div class="char-sheet-heading">
+                    <div>
+                    <div class="field-row">
+                        <div class="field">name</div>
+                        <div class="field" style="flex-grow: 1">perks</div>
+                    </div>
+                    <div class="field-row">
+                        <div class="field">ancestry</div>
+                        <div class="field">calling</div>
+                    </div>
+                    </div>
+                    <div class="field resolve">
+                        <h3>Resolve</h3>
+                        <div class="flex-horizontal" style="align-items:baseline;justify-content:center;flex-grow:1;">
+                            <div>Current</div>
+                            <div class="slash"></div>
+                            <div>Maximum</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-vertical" style="flex-grow:1;">
+                    <img src="images/character_sheet.png" class="attributes-table"  />
+                    <div class="items-container">
+                        <div class="item" style="height:100%;">
+                            <h3>Basic Gear</h3>
+                        </div>
+                        <div class="item">
+                            <h3>Item #1</h3>
+                        </div>
+                        <div class="item">
+                            <h3>Item #2</h3>
+                        </div>
+                        <div class="item">
+                            <h3>Item #3</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </page>
+    <page>
+        <div class="appendix-container">
+            <div>
+                <h1 style="margin-left:0;">Spell reference</h1>
+                <p>When you cast a spell, you can describe any effect you want to produce. It's up to the GM to assign a reasonable <em>difficulty</em> and <em>archetype</em> based on the effect, the situation, and your character. The following list of spells is intended to be used as a source of ideas for spellcasters and a difficulty reference for GMs.</p>
+                <div class="spell-section-heading">
+                    <h3>Trivial</h3>
+                    <div>
+                        <span>free</span>
+                        <span>difficulty 5</span>
+                    </div>
+                </div>
+                <p><span class="h3">Thaumaturgy</span> (ROG or ART) Cause a tiny supernatural effect to happen somewhere nearby. Cause a small object to move, a gust to blow, or a flame to brighten or dim. Conjure a sound or make your own voice louder.</p>
+                <p><span class="h3">Dancing lights</span> (EXP, ROG, or ART) You create up to four glowing orbs that give off the light of a small flame. The orbs follow your commands until you dismiss them or they get too far away.</p>
+                
+                <div class="spell-section-heading">
+                    <h3>Easy</h3>
+                    <div>
+                        <span>-1 resolve</span>
+                        <span>difficulty 10</span>
+                    </div>
+                </div>
+                <p><span class="h3">Bless</span> (SAG) You or one of your allies gets advantage on their next 2 rolls.</p>
+                <p><span class="h3">Detect magic</span> (SAG) Become aware of any nearby magical effects or items.</p>
+                <p><span class="h3">Remove curse</span> (SAG or FIG) Stop the effects of a curse or magical drug.</p>
+            </div>
+            <div>
+                <div class="spell-section-heading">
+                    <h3>Medium</h3>
+                    <div>
+                        <span>-1 resolve</span>
+                        <span>difficulty 15</span>
+                    </div>
+                </div>
+                <p><span class="h3">Cure wounds</span> (SAG) Restore 2 resolve on one of your allies.</p>
+                <p><span class="h3">Death ward</span> (SAG or ROG) Cast a blessing on one of your allies. The next time they would die, they gain 1 resolve.</p>
+                <p><span class="h3">Dispel</span> (FIG) Remove all existing spells and magical effects from a target or counter another magic user’s spell.</p>
+                <p><span class="h3">Bind person</span> (ROG) Cause roots and vines to grow out of the ground, entagling a target's legs until they can break free.</p>
+
+                <div class="spell-section-heading">
+                    <h3>Hard</h3>
+                    <div>
+                        <span>-1 resolve</span>
+                        <span>difficulty 20</span>
+                    </div>
+                </div>
+                <p><span class="h3">Bonfire</span> (SAG or ART) Conjure a roaring bonfire at any point you can see.</p>
+
+                <p><span class="h3">Powerful illusion</span> (ART) Conjure a large immaterial illusion of sight and/or sound, which you control.</p>
+                <p><span class="h3">Charm</span> (ART or DIP) You attempt to beguile the mind of your target, implanting a thought or opinion in its head.</p>
+                <!--<div class="spell-section-heading" style="height: 4px;"></div>-->
+                <div class="rules-container">
+                    <h2>Variant: harmless spells</h2>
+                    <p><b>Optional rule:</b> the effect of a spell can't be to directly cause harm to an enemy. Spells can still indirectly cause harm (like by magically removing the pin from a trap or lighting a building on fire).</p>
+                </div>
+            </div>
+            <div>
+                <h1 style="margin-left:10px;">Bonus Rules</h1>
+                <div class="rules-container">
+                    <h2>Variant: initiative</h2>
+                    <p><b>Optional rule:</b> In a fight or action sequence, sometimes the order of operations is obvious. If you attack someone, they will react. If you and an ally both sneak up on an enemy, you will both get to act before they have a chance to react. But, sometimes it's not clear who has an opportunity to act.</p>
+                    <p>At the begining of an encounter, the GM will ask each player (and NPC) to calculate their <em>initiative</em>. Make a <em>success check</em> using DEX and FIG (or other archetype). Players and NPCs take actions in initiative order, with surprised characters skipping the first round.</p>
+                </div>
+                <div class="rules-container">
+                    <h2>Variant: concordance</h2>
+                    <p><b>Optional rule:</b> A priest can call upon their patron for help or guidance. If their behavior has been <em>concordant</em> with their patron, (they have been serving their patron and not doing things they don't like) their prayers may be answered.</p>
+                    <p>They are more likely to have success if they have not prayed lately or if the favor they are asking is small.</p>
+                </div>
+            </div>
+        </div>
+    </page>
+</body>
+</html>

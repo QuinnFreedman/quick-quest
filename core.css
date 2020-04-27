@@ -1,0 +1,468 @@
+@media print {
+    html {
+        background-color: white !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    body {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    page {
+        margin: 0 !important;
+    }
+
+    .success-check-container:before {
+        background-color: lightgray;
+    }
+
+    span.bullet {
+        background-color: lightgray;
+    }
+
+    h3 {
+        background-color: black;
+    }
+}
+
+html {
+    background-color: gray;
+    letter-spacing: 0em;
+}
+
+body {
+    font-family: Noto Sans;
+}
+
+page {
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+    width: 11in;
+    height: 8.5in;
+    margin: 15px auto;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: Londrina Solid;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin: 8px;
+}
+
+.header-container > h1 {
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+
+.header-icon {
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    font-family: Londrina Solid;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.column-container {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+.rules-container {
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.rules-container.column {
+    width: 100%;
+    margin-left: 0;
+}
+.rules-container.column:first-child {
+    margin-left: 10px;
+}
+.rules-container.column:last-child {
+    margin-right: 0;
+}
+
+.rules-container.row {
+    margin-top: 34px;
+    margin-bottom: 0;
+}
+
+.rules-container.row:last-child {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.rules-container.row:last-child {
+    flex-grow: 1;
+}
+.rules-container > h2 {
+    font-family: Londrina Solid;
+    font-size: 21px;
+    text-transform: uppercase;
+    border-radius: 999px;
+    border: 5px solid lightgray;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    margin-top: -34px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-family: Londrina Solid;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    white-space: nowrap;
+    padding: 0 10px;
+    margin: 6px 0 0 0;
+}
+
+.race-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: Londrina Solid;
+}
+
+.race-table > div:nth-child(even) {
+    width: 53%;
+}
+.race-table > div:nth-child(odd) {
+    width: 47%;
+}
+
+ul {
+    /* list-style: disc; */
+    margin: 6px 0 6px 30px;
+}
+
+ul li::before {
+    content: " ";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-left: -15px;
+    margin-right: 5px;
+    background-color: lightgray;
+    border-radius: 99px;
+}
+
+span.bullet {
+    border-radius: 99px;
+    background-color: lightgray;
+    color: white;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    vertical-align: baseline;
+    text-indent: 0;
+    margin: 0 6px -4px 0;
+    text-align: center;
+}
+
+p {
+    margin: 12px 0;
+}
+.list-container p {
+    text-indent: -30px;
+    margin: 12px 0 12px 30px;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+ul:last-child {
+    margin-bottom: 0;
+}
+
+em {
+    font-family: Londrina Solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: normal;
+}
+.image-table {
+    width: 100%;
+}
+.floating-info {
+    width: 178px;
+    border: 3px solid lightgray;
+    float: right;
+    margin-right: -20px;
+    margin-top: 2px;
+    margin-bottom: -2px;
+    background-color: white;
+    font-size: 12px;
+    padding: 2px 1px 2px 4px;
+}
+
+.subheading {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-right: 20px;
+}
+
+.success-check-container {
+    border: 3px solid lightgray;
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.success-check-container > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.success-check-container:before {
+    content: "success check";
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 0 0 3px;
+    margin: -3px 0 0 0;
+    color: white;
+    background-color: lightgray;
+    font-family: Londrina Solid;
+    font-size: 14px;
+}
+ 
+.d20-icon {
+    margin: 4px;
+}
+.d20-icon > img {
+    height: 2em;
+}
+.d20-icon > figcaption {
+    font-family: Londrina Solid;
+    font-size: 12px;
+}
+
+/* ******************************************************** */
+
+.character-sheet-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    width: 100%;
+}
+
+.divider {
+    width: 4px;
+}
+
+.character-sheet {
+    flex-grow: 1;
+    flex-basis: 0;
+    font-family: Londrina Solid;
+    margin: 10px 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.character-sheet:first-child {
+    margin: 10px;
+}
+
+.char-sheet-heading {
+    width: 100%;
+    background-color: lightgray;
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.char-sheet-heading > *:first-child {
+    flex-grow: 1;
+}
+
+.field-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.field {
+    background-color: white;
+    border-radius: 999px;
+    margin: 0 0 12px 12px;
+    height: 24px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    color: lightgray;
+}
+    
+.field-row .field {
+    flex-grow: 6;
+    flex-basis: 0;
+
+    display: flex;
+    align-items: end;
+}
+
+.resolve {
+    height: 70px;
+    width: 128px;
+    padding: 0;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 15px;
+
+    padding-bottom: 7px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resolve h3 {
+    margin: 0;
+    margin-top: -9px;
+}
+
+.slash {
+    height: 90%;
+    width: 4px;
+    background-color: lightgray;
+    transform: rotate(20deg);
+    margin: 5px 8px 0 12px;
+}
+
+.flex-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.attributes-table {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-bottom: -15px;
+}
+
+.item {
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    margin: 0 0 15px 10px;
+    flex-grow: 1;
+}
+
+.item:first-child {
+    margin-left: 0;
+}
+
+.item h3 {
+    margin: 0;
+    border-left: 6px solid white;
+    border-right: 6px solid white;
+    margin-top: -12px;
+}
+
+/* ************************************************** */
+
+.appendix-container {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.appendix-container > div {
+    flex-basis: 0;
+    flex-grow: 1;
+    margin: 10px;
+}
+
+.spell-section-heading {
+    background-color: black;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    vertical-align: baseline;
+
+    font-family: Londrina Solid;
+}
+
+.spell-section-heading span {
+    background-color: white;
+    color: black;
+    padding: 2px 6px;
+    box-sizing:border-box;
+    border-radius: 999px;
+    margin-right: 8px;
+}
+
+.spell-section-heading > * {
+    margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+span.h3 {
+    font-family: Londrina Solid;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    white-space: nowrap;
+    padding: 0 10px;
+    margin: 6px 0 0 0;
+}
+
+.appendix-container .rules-container {
+    margin-top: 35px;
+}
+
