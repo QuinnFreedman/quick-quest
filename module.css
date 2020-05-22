@@ -10,12 +10,12 @@ h4 {
 p.player-text {
     font-family: Londrina Solid;
     font-size: 1.1em;
-    border-left: 5px solid lightgray;
+    border-left: 5px solid var(--accent-color);
     padding-left: 8px;
 }
 
 .rolls {
-    border: 3px solid lightgray;
+    border: 3px solid var(--accent-color);
     padding: 12px;
     position: relative;
 }
@@ -23,7 +23,7 @@ p.player-text {
 .rolls:before {
     content: "Example rolls";
     font-family: Londrina Solid;
-    background-color: lightgray;
+    background-color: var(--accent-color);
     color: white;
     padding: 0 0 3px 3px;
     margin: -12px -12px 0 0;
@@ -38,7 +38,7 @@ p.player-text {
 
 .sign {
     margin-top: 12px;
-    border: 3px solid lightgray;
+    border: 3px solid var(--accent-color);
     padding: 12px;
     font-family: Londrina Solid;
     text-align: center;
@@ -49,7 +49,7 @@ u {
 }
 
 .map {
-    border: 3px solid lightgray;
+    border: 3px solid var(--accent-color);
     position: relative;
 }
 
@@ -66,7 +66,7 @@ u {
     padding: 0 0 0 3px;
     margin: -3px 0 0 0;
     color: white;
-    background-color: lightgray;
+    background-color: var(--accent-color);
     font-family: Londrina Solid;
     font-size: 14px;
 }
